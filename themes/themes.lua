@@ -1,7 +1,7 @@
 function OnInit()
     console.log(con_color.Cyan, "лушака загрузилась епт\n")
 end
-local page = menu.add_page("Temes", 17)
+local page = menu.add_page("Themes", 17)
 
 
 
