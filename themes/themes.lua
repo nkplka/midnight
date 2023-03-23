@@ -1,7 +1,7 @@
 function OnInit()
     console.log(con_color.Cyan, "лушака загрузилась епт\n")
 end
-local page = menu.add_page("Themes", 17)
+local page = menu.add_page("Styles", 17)
 
 
 
@@ -9,7 +9,7 @@ function OnDone()
 	menu.delete_page(page)
 end
 
-local left = menu.add_mono_block(page, "huita", 0)
+local left = menu.add_mono_block(page, "Themes", 0)
 
 
 menu.add_button(left, "Reset", function()
