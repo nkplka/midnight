@@ -62,3 +62,29 @@
         Параметры: bits (int) - не указано
         Возвращаемое значение: (bool) - не указано
         Методы: buffer:skip_to_pos(bits)
+    color (con_color) - Тип цвета (опционально)
+    text (string) - Строка для вывода
+
+
+
+    console.log(color, text)
+    console.log(text)
+
+con_color = {
+    Black = 0,
+    Blue = 1,
+    Green = 2,
+    Cyan = 3,
+    Red = 4,
+    Purple = 5,
+    Orange = 6,
+    LightGrey = 7,
+    Grey = 8,
+    LightBlue = 9,
+    LightGreen = 10,
+    LightCyan = 11,
+    LightRed = 12,
+    LightPurple = 13,
+    Yellow = 14,
+    White = 15
+};
